@@ -28,16 +28,17 @@ time, mark, audio, video {
 /* header or Nav */
 * {
     box-sizing: border-box;
-    
 }
 
 body{
     font-family: 'Roboto Mono', monospace;
 }
+
 nav{
     border-radius: 5px;
     width: 80%;
-    margin: 1% auto;   
+    margin: 1% auto;  
+     
     
 }
 nav button{
@@ -96,6 +97,7 @@ nav button{
     text-align: center;
     padding: 2%;
     font-size: 1.5rem;
+    
 }
 /* call to action*/
 .call-to-action{
@@ -129,9 +131,9 @@ nav button{
 /* footer */
 
 footer{
-    /* height: 5%; */
     width: 100%;
     background-color: #F9E7DC;
+    padding-bottom: 1.5%;
 }
 .footpic{
     background-image: url(assets/footer_img.jpg);
@@ -139,6 +141,4 @@ footer{
     background-origin: border-box;
     background-position: 25% 25%;
     height: 20vh;
-    
-
 }
