@@ -26,12 +26,14 @@ time, mark, audio, video {
 
 
 /* header or Nav */
-*{
+* {
     box-sizing: border-box;
-    font-family: 'Roboto Mono', monospace;
     
 }
 
+body{
+    font-family: 'Roboto Mono', monospace;
+}
 nav{
     border-radius: 5px;
     width: 80%;
@@ -129,6 +131,7 @@ nav button{
 footer{
     /* height: 5%; */
     width: 100%;
+    background-color: #F9E7DC;
 }
 .footpic{
     background-image: url(assets/footer_img.jpg);
