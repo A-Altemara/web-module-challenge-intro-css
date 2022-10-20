@@ -1,0 +1,110 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* header or Nav */
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav{
+    border-radius: 5px;
+    width: 80%;
+    margin: 1% auto;   
+    
+}
+nav button{
+    border-radius: 5px;
+}
+.plan{
+    margin: 0 10% 0 10%;
+
+}
+.about{
+    margin: 0 10% 0 10%;
+}
+.involved{
+    margin: 0 10% 0 10%;
+}
+/* hero  or landing */
+.hero{
+    /* height: 300px; */
+    display: inline-block;
+}
+
+.hero div{
+    margin: auto;
+}
+
+.hero img{
+    /* width: 25%; */
+    height: 25vh;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 10%;
+
+}
+
+.guide{
+    width: 50%;
+    display: inline-block;
+    margin: 5% auto;
+}
+
+.hero h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 1.7rem;
+    padding: 5%;
+}
+.hero .guide p{
+    text-align: center;
+    padding: 3%;
+}
+/* call to action*/
+.call-to-action{
+    margin: 0 auto;
+    width: 25%;
+}
+.call-to-action img{
+    width: 25%;
+    margin: 0 25%;
+}
+/* footer */
+
+footer{
+    /* height: 5%; */
+    width: 100%;
+}
+.footpic{
+    background-image: url(assets/footer_img.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: 25% 25%;
+    height: 20vh;
+    
+
+}
