@@ -29,6 +29,7 @@ time, mark, audio, video {
 *{
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
+    
 }
 
 nav{
@@ -38,34 +39,42 @@ nav{
     
 }
 nav button{
-    border-radius: 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 10%;
 }
 .plan{
     margin: 0 10% 0 10%;
+    background-color: #FF764E;
 
 }
 .about{
     margin: 0 10% 0 10%;
+    background-color: #5ED3EB;
 }
 .involved{
     margin: 0 10% 0 10%;
+    background-color: #FFCD69;
 }
 /* hero  or landing */
 .hero{
-    /* height: 300px; */
+    width: 80%;
     display: inline-block;
+    margin: 0 10% 0 10%;
 }
 
 .hero div{
-    margin: auto;
+    /* margin: 0 5% 0 0%; */
+    display: inline-block;
 }
 
 .hero img{
     /* width: 25%; */
-    height: 25vh;
+    height: 35vh;
     border-radius: 50%;
     display: inline-block;
-    margin: 0 10%;
+    margin: 0 5% 0 10%;
 
 }
 
@@ -77,21 +86,43 @@ nav button{
 
 .hero h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 1.7rem;
-    padding: 5%;
-}
-.hero .guide p{
+    font-size: 3rem;
     text-align: center;
     padding: 3%;
 }
+.hero .guide p{
+    text-align: center;
+    padding: 2%;
+    font-size: 1.5rem;
+}
 /* call to action*/
 .call-to-action{
-    margin: 0 auto;
+    margin: 0 auto 5% auto;
     width: 25%;
 }
+.valley-description{
+    width: 95%;
+    color: white;
+    background-color: #DDB9A3;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1%;
+}
+.valley-description div{
+    padding: 1%;
+}
 .call-to-action img{
-    width: 25%;
+    width: 40%;
     margin: 0 25%;
+}
+
+.call-to-action .toon span{
+    font-weight: bold;
+}
+
+.intro{
+    width: 75%;
+    margin: 0 auto;
 }
 /* footer */
 
